@@ -1,9 +1,9 @@
 
 
 // import Pchat from "./Pages/Pchat"
-//import PFriends from "./Pages/PFriends"
+import PFriends from "./Pages/PFriends"
 
-import PPersonsProfilePage from "./Pages/PPersonsProfilePage"
+//import PPersonsProfilePage from "./Pages/PPersonsProfilePage"
 
 
 
@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div>
       {/* <Pchat/> */}
-      {/* <PFriends/> */}
-      <PPersonsProfilePage/>
+       <PFriends/> 
+      {/* <PPersonsProfilePage/> */}
     </div>
   )
 }
