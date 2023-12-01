@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+
+// import Pchat from "./Pages/Pchat"
+//import PFriends from "./Pages/PFriends"
+
+import PPersonsProfilePage from "./Pages/PPersonsProfilePage"
+
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Pchat/> */}
+      {/* <PFriends/> */}
+      <PPersonsProfilePage/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
